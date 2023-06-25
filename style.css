@@ -132,11 +132,15 @@ button:hover {
 
 /* Media-quary for responsive-start */
 @media screen and (max-width: 607px) {
+  main {
+    margin: 5% 0;
+  }
   .container {
-    margin: auto 5%;
+    margin: 5% 5%;
   }
   .attribution {
     padding: 0 5%;
+    margin-top: 20px 0;
   }
 }
 @media screen and (max-width: 527px) {
@@ -163,6 +167,7 @@ button:hover {
   p {
     margin-bottom: 20px;
   }
+
   button {
     width: 100%;
     padding: 1.1rem;
